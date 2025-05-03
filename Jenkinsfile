@@ -9,7 +9,7 @@ pipeline{
         stage('source from git')
         {
             steps{
-                git branch: 'main', url: 'https://github.com/prakruthi-07/jenkins.git'
+                git branch: 'master', url:'https://github.com/prakruthi-07/deloitte_database.git'
             }
         }
         stage('clean'){
